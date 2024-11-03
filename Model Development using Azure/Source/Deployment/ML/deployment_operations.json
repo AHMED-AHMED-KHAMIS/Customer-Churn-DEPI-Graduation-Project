@@ -1,0 +1,82 @@
+[
+  {
+    "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices/operations/1479BE2641323DE5",
+    "operationId": "1479BE2641323DE5",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-10-24T16:34:14.0499005Z",
+      "duration": "PT42.0113212S",
+      "trackingId": "7980cee6-4b0b-48fb-95c0-d0a2db6d6343",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.MachineLearningServices/workspaces/test",
+        "resourceType": "Microsoft.MachineLearningServices/workspaces",
+        "resourceName": "test"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices/operations/2DD423FB37F1B758",
+    "operationId": "2DD423FB37F1B758",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-10-24T16:33:31.8743572Z",
+      "duration": "PT24.6076966S",
+      "trackingId": "d36d0cc5-191c-4779-bab5-07fb2c0f52ef",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.Insights/components/test8409707707",
+        "resourceType": "Microsoft.Insights/components",
+        "resourceName": "test8409707707"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices/operations/2211A62654463449",
+    "operationId": "2211A62654463449",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-10-24T16:33:27.2772381Z",
+      "duration": "PT20.0105775S",
+      "trackingId": "46b04e83-74a0-4e9d-b0b4-2d41724226b5",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.KeyVault/vaults/test0403623514",
+        "resourceType": "Microsoft.KeyVault/vaults",
+        "resourceName": "test0403623514"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices/operations/417CE46C840E1500",
+    "operationId": "417CE46C840E1500",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-10-24T16:33:24.7576195Z",
+      "duration": "PT17.4909589S",
+      "trackingId": "4525e10d-b762-4a7a-ab46-938ddc67c2db",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.OperationalInsights/workspaces/test9824048925",
+        "resourceType": "Microsoft.OperationalInsights/workspaces",
+        "resourceName": "test9824048925"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices/operations/08584718193084123934",
+    "operationId": "08584718193084123934",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-10-24T16:34:14.1935096Z",
+      "duration": "PT42.1549303S",
+      "trackingId": "1768ede5-d868-4b8c-b619-f88322e02c5d",
+      "statusCode": "OK"
+    }
+  }
+]

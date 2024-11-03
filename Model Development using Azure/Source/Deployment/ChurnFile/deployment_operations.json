@@ -1,0 +1,82 @@
+[
+  {
+    "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.Resources/deployments/churnfileshare_1729757682830/operations/780308B983A71073",
+    "operationId": "780308B983A71073",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-10-24T08:19:06.0639452Z",
+      "duration": "PT1M3.5166993S",
+      "trackingId": "da66061b-ec2d-4286-a126-0de74f130383",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.RecoveryServices/vaults/vault-m2n11fmy/backupFabrics/Azure/protectionContainers/storagecontainer;Storage;DepiChurnResourcegroup;depichurnstorageacc/protectedItems/AzureFileShare;churnfileshare",
+        "resourceType": "Microsoft.RecoveryServices/vaults/backupFabrics/protectionContainers/protectedItems",
+        "resourceName": "vault-m2n11fmy/Azure/storagecontainer;Storage;DepiChurnResourcegroup;depichurnstorageacc/AzureFileShare;churnfileshare"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.Resources/deployments/churnfileshare_1729757682830/operations/00657693633BC23B",
+    "operationId": "00657693633BC23B",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-10-24T08:18:02.4980306Z",
+      "duration": "PT3M4.3091824S",
+      "trackingId": "90640526-1898-4167-aaeb-0f908281ef45",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.RecoveryServices/vaults/vault-m2n11fmy/backupFabrics/Azure/protectionContainers/storagecontainer;Storage;DepiChurnResourcegroup;depichurnstorageacc",
+        "resourceType": "Microsoft.RecoveryServices/vaults/backupFabrics/protectionContainers",
+        "resourceName": "vault-m2n11fmy/Azure/storagecontainer;Storage;DepiChurnResourcegroup;depichurnstorageacc"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.Resources/deployments/churnfileshare_1729757682830/operations/58396210ED19B1AC",
+    "operationId": "58396210ED19B1AC",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-10-24T08:16:12.182383Z",
+      "duration": "PT0.5451628S",
+      "trackingId": "070ce1ed-d9ca-45b5-a90f-5f5241bed327",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.RecoveryServices/vaults/vault-m2n11fmy/backupPolicies/DailyPolicy-m2n11fyh",
+        "resourceType": "Microsoft.RecoveryServices/vaults/backupPolicies",
+        "resourceName": "vault-m2n11fmy/DailyPolicy-m2n11fyh"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.Resources/deployments/churnfileshare_1729757682830/operations/E35C1C7BD1D7F40B",
+    "operationId": "E35C1C7BD1D7F40B",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-10-24T08:16:11.5822574Z",
+      "duration": "PT1M13.3934092S",
+      "trackingId": "c8be99c7-a146-4b11-b80f-6b3c1eca1eb8",
+      "statusCode": "Created",
+      "targetResource": {
+        "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.RecoveryServices/vaults/vault-m2n11fmy",
+        "resourceType": "Microsoft.RecoveryServices/vaults",
+        "resourceName": "vault-m2n11fmy"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.Resources/deployments/churnfileshare_1729757682830/operations/08584718491984286228",
+    "operationId": "08584718491984286228",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-10-24T08:19:06.3142315Z",
+      "duration": "PT1M3.7669856S",
+      "trackingId": "f36053f0-f869-413f-a3ac-7be3ee5043ea",
+      "statusCode": "OK"
+    }
+  }
+]

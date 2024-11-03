@@ -1,0 +1,339 @@
+{
+  "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.Resources/deployments/Microsoft.MachineLearningServices",
+  "name": "Microsoft.MachineLearningServices",
+  "type": "Microsoft.Resources/deployments",
+  "properties": {
+    "templateHash": "1486707342257387734",
+    "parameters": {
+      "workspaceName": {
+        "type": "String",
+        "value": "test"
+      },
+      "friendlyName": {
+        "type": "String",
+        "value": "test"
+      },
+      "description": {
+        "type": "String",
+        "value": ""
+      },
+      "kind": {
+        "type": "String",
+        "value": "Default"
+      },
+      "location": {
+        "type": "String",
+        "value": "australiaeast"
+      },
+      "resourceGroupName": {
+        "type": "String",
+        "value": "DepiChurnResourcegroup"
+      },
+      "appInsightsLogWorkspaceName": {
+        "type": "String",
+        "value": "test9824048925"
+      },
+      "sku": {
+        "type": "String",
+        "value": "Basic"
+      },
+      "identityType": {
+        "type": "String",
+        "value": "systemAssigned"
+      },
+      "primaryUserAssignedIdentityResourceGroup": {
+        "type": "String",
+        "value": "DepiChurnResourcegroup"
+      },
+      "primaryUserAssignedIdentityName": {
+        "type": "String",
+        "value": ""
+      },
+      "storageAccountOption": {
+        "type": "String",
+        "value": "existing"
+      },
+      "storageAccountName": {
+        "type": "String",
+        "value": "depichurnstorageacc"
+      },
+      "storageAccountType": {
+        "type": "String",
+        "value": "Standard_LRS"
+      },
+      "storageAccountBehindVNet": {
+        "type": "String",
+        "value": "false"
+      },
+      "storageAccountResourceGroupName": {
+        "type": "String",
+        "value": "DepiChurnResourcegroup"
+      },
+      "storageAccountLocation": {
+        "type": "String",
+        "value": "australiaeast"
+      },
+      "storageAccountHnsEnabled": {
+        "type": "Bool",
+        "value": false
+      },
+      "enableServiceSideCMKEncryption": {
+        "type": "Bool",
+        "value": false
+      },
+      "keyVaultOption": {
+        "type": "String",
+        "value": "new"
+      },
+      "keyVaultName": {
+        "type": "String",
+        "value": "test0403623514"
+      },
+      "keyVaultBehindVNet": {
+        "type": "String",
+        "value": "false"
+      },
+      "keyVaultResourceGroupName": {
+        "type": "String",
+        "value": "DepiChurnResourcegroup"
+      },
+      "keyVaultLocation": {
+        "type": "String",
+        "value": "australiaeast"
+      },
+      "applicationInsightsOption": {
+        "type": "String",
+        "value": "new"
+      },
+      "applicationInsightsName": {
+        "type": "String",
+        "value": "test8409707707"
+      },
+      "applicationInsightsResourceGroupName": {
+        "type": "String",
+        "value": "DepiChurnResourcegroup"
+      },
+      "applicationInsightsLocation": {
+        "type": "String",
+        "value": "australiaeast"
+      },
+      "containerRegistryOption": {
+        "type": "String",
+        "value": "existing"
+      },
+      "containerRegistryName": {
+        "type": "String",
+        "value": "d5bbac5bd83141f88badec3db5050698"
+      },
+      "containerRegistrySku": {
+        "type": "String",
+        "value": "Basic"
+      },
+      "containerRegistryResourceGroupName": {
+        "type": "String",
+        "value": "DepiChurnResourcegroup"
+      },
+      "containerRegistryBehindVNet": {
+        "type": "String",
+        "value": "false"
+      },
+      "containerRegistryLocation": {
+        "type": "String",
+        "value": "australiaeast"
+      },
+      "vnetOption": {
+        "type": "String",
+        "value": "none"
+      },
+      "vnetName": {
+        "type": "String",
+        "value": "vnx4u7uwezprhge"
+      },
+      "vnetResourceGroupName": {
+        "type": "String",
+        "value": "DepiChurnResourcegroup"
+      },
+      "addressPrefixes": {
+        "type": "Array",
+        "value": [
+          "10.0.0.0/16"
+        ]
+      },
+      "subnetOption": {
+        "type": "String",
+        "value": "none"
+      },
+      "subnetName": {
+        "type": "String",
+        "value": "snx4u7uwezprhge"
+      },
+      "subnetPrefix": {
+        "type": "String",
+        "value": "10.0.0.0/24"
+      },
+      "adbWorkspace": {
+        "type": "String",
+        "value": ""
+      },
+      "confidential_data": {
+        "type": "String",
+        "value": "false"
+      },
+      "encryption_status": {
+        "type": "String",
+        "value": "Disabled"
+      },
+      "cmk_keyvault": {
+        "type": "String",
+        "value": ""
+      },
+      "resource_cmk_uri": {
+        "type": "String",
+        "value": ""
+      },
+      "privateEndpointType": {
+        "type": "String",
+        "value": "none"
+      },
+      "tagValues": {
+        "type": "Object",
+        "value": {}
+      },
+      "privateEndpointName": {
+        "type": "String",
+        "value": "pe"
+      },
+      "privateEndpointResourceGroupName": {
+        "type": "String",
+        "value": "DepiChurnResourcegroup"
+      },
+      "privateEndpointSubscription": {
+        "type": "String",
+        "value": "b602e9a5-4833-437a-b564-e6917d845ba3"
+      },
+      "systemDatastoresAuthMode": {
+        "type": "String",
+        "value": "accessKey"
+      },
+      "allowSharedKeyAccess": {
+        "type": "String",
+        "value": "true"
+      },
+      "managedNetwork": {
+        "type": "Object",
+        "value": {
+          "isolationMode": "Disabled"
+        }
+      },
+      "publicNetworkAccess": {
+        "type": "String",
+        "value": "Enabled"
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2024-10-24T16:34:14.2311351Z",
+    "duration": "PT1M8.9659139S",
+    "correlationId": "5a200e79-a95b-432f-a3c4-263a54e5e21e",
+    "providers": [
+      {
+        "namespace": "Microsoft.KeyVault",
+        "resourceTypes": [
+          {
+            "resourceType": "vaults",
+            "locations": [
+              "australiaeast"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.OperationalInsights",
+        "resourceTypes": [
+          {
+            "resourceType": "workspaces",
+            "locations": [
+              "australiaeast"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.Insights",
+        "resourceTypes": [
+          {
+            "resourceType": "components",
+            "locations": [
+              "australiaeast"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.MachineLearningServices",
+        "resourceTypes": [
+          {
+            "resourceType": "workspaces",
+            "locations": [
+              "australiaeast"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.OperationalInsights/workspaces/test9824048925",
+            "resourceType": "Microsoft.OperationalInsights/workspaces",
+            "resourceName": "test9824048925"
+          }
+        ],
+        "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.Insights/components/test8409707707",
+        "resourceType": "Microsoft.Insights/components",
+        "resourceName": "test8409707707"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.KeyVault/vaults/test0403623514",
+            "resourceType": "Microsoft.KeyVault/vaults",
+            "resourceName": "test0403623514"
+          },
+          {
+            "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.Insights/components/test8409707707",
+            "resourceType": "Microsoft.Insights/components",
+            "resourceName": "test8409707707"
+          }
+        ],
+        "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.MachineLearningServices/workspaces/test",
+        "resourceType": "Microsoft.MachineLearningServices/workspaces",
+        "resourceName": "test"
+      }
+    ],
+    "outputs": {},
+    "outputResources": [
+      {
+        "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.Insights/components/test8409707707"
+      },
+      {
+        "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.KeyVault/vaults/test0403623514"
+      },
+      {
+        "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.MachineLearningServices/workspaces/test"
+      },
+      {
+        "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.OperationalInsights/workspaces/test9824048925"
+      }
+    ],
+    "validationLevel": "Template"
+  },
+  "tags": {
+    "primaryResourceId": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourcegroups/DepiChurnResourcegroup/providers/Microsoft.MachineLearningServices/workspaces/test",
+    "provisioningHash": "iwuh-wccbe-tt0-2enb-ioes-849e-tircx-guw6"
+  }
+}

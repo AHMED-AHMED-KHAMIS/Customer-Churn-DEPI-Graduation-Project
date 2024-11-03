@@ -1,0 +1,182 @@
+{
+  "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.Resources/deployments/churnfileshare_1729757682830",
+  "name": "churnfileshare_1729757682830",
+  "type": "Microsoft.Resources/deployments",
+  "properties": {
+    "templateLink": {
+      "uri": "https://filestorage.hosting.portal.azure.net/filestorage/Content/5.13.393.1780/DeploymentTemplates/BackupTemplateBicep.json",
+      "contentVersion": "1.0.0.0"
+    },
+    "templateHash": "3081944633822201146",
+    "parameters": {
+      "existingResourceGroupName": {
+        "type": "String",
+        "value": "DepiChurnResourcegroup"
+      },
+      "existingStorageAccountName": {
+        "type": "String",
+        "value": "depichurnstorageacc"
+      },
+      "existingFileShareName": {
+        "type": "String",
+        "value": "churnfileshare"
+      },
+      "location": {
+        "type": "String",
+        "value": "australiaeast"
+      },
+      "isNewVault": {
+        "type": "Bool",
+        "value": true
+      },
+      "isNewPolicy": {
+        "type": "Bool",
+        "value": true
+      },
+      "registerStorageAccount": {
+        "type": "Bool",
+        "value": true
+      },
+      "vaultName": {
+        "type": "String",
+        "value": "vault-m2n11fmy"
+      },
+      "policyName": {
+        "type": "String",
+        "value": "DailyPolicy-m2n11fyh"
+      },
+      "policyProperties": {
+        "type": "Object",
+        "value": {
+          "backupManagementType": "AzureStorage",
+          "timeZone": "UTC",
+          "schedulePolicy": {
+            "schedulePolicyType": "SimpleSchedulePolicy",
+            "scheduleRunFrequency": "Daily",
+            "scheduleRunTimes": [
+              "2024-10-24T19:30:00.000Z"
+            ],
+            "scheduleWeeklyFrequency": 0,
+            "scheduleRunDays": []
+          },
+          "retentionPolicy": {
+            "retentionPolicyType": "LongTermRetentionPolicy",
+            "dailySchedule": {
+              "retentionTimes": [
+                "2024-10-24T19:30:00.000Z"
+              ],
+              "retentionDuration": {
+                "count": 30,
+                "durationType": "Days"
+              }
+            },
+            "weeklySchedule": null,
+            "monthlySchedule": null,
+            "yearlySchedule": null
+          },
+          "protectedItemsCount": 0,
+          "workloadType": "AzureFileShare"
+        }
+      }
+    },
+    "mode": "Incremental",
+    "provisioningState": "Succeeded",
+    "timestamp": "2024-10-24T08:19:06.4204158Z",
+    "duration": "PT4M14.2516385S",
+    "correlationId": "45e58d0c-8df9-4c60-8bb6-285843bfde0a",
+    "providers": [
+      {
+        "namespace": "Microsoft.RecoveryServices",
+        "resourceTypes": [
+          {
+            "resourceType": "vaults",
+            "locations": [
+              "australiaeast"
+            ]
+          },
+          {
+            "resourceType": "vaults/backupPolicies",
+            "locations": [
+              null
+            ]
+          },
+          {
+            "resourceType": "vaults/backupFabrics/protectionContainers",
+            "locations": [
+              null
+            ]
+          },
+          {
+            "resourceType": "vaults/backupFabrics/protectionContainers/protectedItems",
+            "locations": [
+              null
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.RecoveryServices/vaults/vault-m2n11fmy",
+            "resourceType": "Microsoft.RecoveryServices/vaults",
+            "resourceName": "vault-m2n11fmy"
+          }
+        ],
+        "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.RecoveryServices/vaults/vault-m2n11fmy/backupPolicies/DailyPolicy-m2n11fyh",
+        "resourceType": "Microsoft.RecoveryServices/vaults/backupPolicies",
+        "resourceName": "vault-m2n11fmy/DailyPolicy-m2n11fyh"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.RecoveryServices/vaults/vault-m2n11fmy",
+            "resourceType": "Microsoft.RecoveryServices/vaults",
+            "resourceName": "vault-m2n11fmy"
+          }
+        ],
+        "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.RecoveryServices/vaults/vault-m2n11fmy/backupFabrics/Azure/protectionContainers/storagecontainer;Storage;DepiChurnResourcegroup;depichurnstorageacc",
+        "resourceType": "Microsoft.RecoveryServices/vaults/backupFabrics/protectionContainers",
+        "resourceName": "vault-m2n11fmy/Azure/storagecontainer;Storage;DepiChurnResourcegroup;depichurnstorageacc"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.RecoveryServices/vaults/vault-m2n11fmy/backupFabrics/Azure/protectionContainers/storagecontainer;Storage;DepiChurnResourcegroup;depichurnstorageacc",
+            "resourceType": "Microsoft.RecoveryServices/vaults/backupFabrics/protectionContainers",
+            "resourceName": "vault-m2n11fmy/Azure/storagecontainer;Storage;DepiChurnResourcegroup;depichurnstorageacc"
+          },
+          {
+            "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.RecoveryServices/vaults/vault-m2n11fmy/backupPolicies/DailyPolicy-m2n11fyh",
+            "resourceType": "Microsoft.RecoveryServices/vaults/backupPolicies",
+            "resourceName": "vault-m2n11fmy/DailyPolicy-m2n11fyh"
+          },
+          {
+            "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.RecoveryServices/vaults/vault-m2n11fmy",
+            "resourceType": "Microsoft.RecoveryServices/vaults",
+            "resourceName": "vault-m2n11fmy"
+          }
+        ],
+        "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.RecoveryServices/vaults/vault-m2n11fmy/backupFabrics/Azure/protectionContainers/storagecontainer;Storage;DepiChurnResourcegroup;depichurnstorageacc/protectedItems/AzureFileShare;churnfileshare",
+        "resourceType": "Microsoft.RecoveryServices/vaults/backupFabrics/protectionContainers/protectedItems",
+        "resourceName": "vault-m2n11fmy/Azure/storagecontainer;Storage;DepiChurnResourcegroup;depichurnstorageacc/AzureFileShare;churnfileshare"
+      }
+    ],
+    "outputResources": [
+      {
+        "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.RecoveryServices/vaults/vault-m2n11fmy"
+      },
+      {
+        "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.RecoveryServices/vaults/vault-m2n11fmy/backupFabrics/Azure/protectionContainers/storagecontainer;Storage;DepiChurnResourcegroup;depichurnstorageacc"
+      },
+      {
+        "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.RecoveryServices/vaults/vault-m2n11fmy/backupFabrics/Azure/protectionContainers/storagecontainer;Storage;DepiChurnResourcegroup;depichurnstorageacc/protectedItems/AzureFileShare;churnfileshare"
+      },
+      {
+        "id": "/subscriptions/b602e9a5-4833-437a-b564-e6917d845ba3/resourceGroups/DepiChurnResourcegroup/providers/Microsoft.RecoveryServices/vaults/vault-m2n11fmy/backupPolicies/DailyPolicy-m2n11fyh"
+      }
+    ]
+  },
+  "tags": {}
+}
