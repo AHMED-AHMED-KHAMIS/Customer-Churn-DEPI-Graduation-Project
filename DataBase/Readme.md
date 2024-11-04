@@ -16,22 +16,34 @@
 
 ![dimazurecustomer](https://github.com/user-attachments/assets/cd26fe04-a36e-42cd-90a5-b452f4d116cc)
 
-# Tables:
 
-  1. Customer Table
-  2. Services Table
-  3. Contract Table
-  4. Churn Table
-  5. Date Table
-  6. Fact Customer Table
 
-# Tables Creation:
+## Tables:
 
-  ## the following Query files for project tables:
+1. Customer:
+     Stores information about Customer. Create this table first.
+   
+2. Services:
+   contains Customer Services. Depends on the Customer tables.
+   
+3. Contract:
+    Links Customer to Services. Depends on the Customer and Services tables.
+   
+4. Churn:
+   Contains information about Customer states.
+   
+5. Date:
+   Track the dates of Churn.
 
-    - DimCustomer.sql
-    - DimServices.sql
-    - DimContract.sql
-    - DimChurn.sql
-    - DimDate.sql
-    - Fact_Customer_churn.sql
+6. Fact_customer_churn
+
+   
+
+# Tables Creations :
+  ## Run the following queries files:
+    1. DimcCustomer.sql
+    2. DimServices.sql
+    3. Dimcontract.sql
+    4. DimDate.sql
+    5. DimChurn.sql
+    6. Fact_customer_churn.sql
