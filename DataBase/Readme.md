@@ -1,5 +1,5 @@
 # Customer Churn Database schema:
-  This project contains a set of tables telco customer churn>
+  This project contains a set of tables about telco customer churn.
 
 # Azure Data Stodio
 ![azure_data_stodio_log](https://github.com/user-attachments/assets/6fde55bb-c662-4f7c-bffe-baefa0da70f2)
