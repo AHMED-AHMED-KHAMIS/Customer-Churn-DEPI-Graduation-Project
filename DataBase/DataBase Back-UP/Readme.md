@@ -1,6 +1,3 @@
-# Azure Data Stodio
-![azure_data_stodio_log](https://github.com/user-attachments/assets/6fde55bb-c662-4f7c-bffe-baefa0da70f2)
-
 # Grand Schema
 
 ![star_schema](https://github.com/user-attachments/assets/32a9c340-6bc1-4550-ba26-18fb9c1c5602)
