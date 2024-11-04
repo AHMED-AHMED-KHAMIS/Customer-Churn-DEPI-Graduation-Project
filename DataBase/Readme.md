@@ -25,7 +25,7 @@
   5. Date Table
   6. Fact Customer Table
 
-# Table Creation:
+# Tables Creation:
 
   ## the following Query files for project tables:
 
