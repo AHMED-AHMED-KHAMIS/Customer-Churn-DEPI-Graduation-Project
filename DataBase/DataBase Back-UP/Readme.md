@@ -15,4 +15,12 @@
 ## Q4: Contract Types
 ![contract](https://github.com/user-attachments/assets/15bdc425-9c03-4e6c-88c0-b0049663905e)
 
+## Q5: Internet by Churn
+![int vs churn](https://github.com/user-attachments/assets/f3b08b90-6da3-4031-aa95-7581906b7357)
+
+## Q6: Services by Churn
+![serv vs churn](https://github.com/user-attachments/assets/0d836d23-8d75-4515-97d3-6727496d882e)
+
+## Q7: Contract by churn 
+![contract](https://github.com/user-attachments/assets/c9af1106-7b99-4b4d-9927-f99fb7473cc6)
 
