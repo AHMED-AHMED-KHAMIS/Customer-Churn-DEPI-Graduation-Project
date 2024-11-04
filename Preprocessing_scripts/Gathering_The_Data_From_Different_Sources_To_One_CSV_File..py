@@ -5,7 +5,7 @@ import pandas as pd # data processing, CSV file I/O (e.g. pd.read_csv)
 file_1 = pd.read_csv(r"D:\DEPI PROJECT\New folder\fact_customer_churn.csv")
 file_2 = pd.read_csv(r"D:\DEPI PROJECT\New folder\dim_customers.csv")
 file_3 = pd.read_csv(r"D:\DEPI PROJECT\New folder\dim_contract.csv")
-file_4 = pd.read_csv(r"D:\DEPI PROJECT\New folder\dim service.csv")
+file_4 = pd.read_csv(r"D:\DEPI PROJECT\New folder\dim_service.csv")
 
 # Merge the CSV files using 'customerID' as the key
 # Start by merging file_1 with file_2
