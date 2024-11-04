@@ -59,11 +59,15 @@ Several models were trained and evaluated, including:
 Models were evaluated based on accuracy, precision, recall, and F1-score. The model with the best performance was selected for deployment.
 
 ## Contributors
-- **Ahmed Ahmed Khamis** - Data Engineer, DEPI Graduate
+- **Ahmed Ahmed Khamis** - Data Engineer, DEPI & ITI Graduate
+- **Karima Ibrahim Mohamed** - Data Engineer, DEPI Graduate
+- **Ahmed Serry Abdul Hameed Hassan** - Data Engineer, DEPI Graduate
+- **Maryam Sayed AbdElRahman Ghanem** - Data Engineer, DEPI Graduate
+
+
+
 
 ## License
 This project is licensed under the MIT License.
 
 --- 
-
-Let me know if there’s anything else you'd like to adjust!
