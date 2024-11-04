@@ -1,7 +1,3 @@
-Here's the updated README file:
-
----
-
 # Customer Churn Prediction - DEPI Graduation Project
 
 This project aims to analyze customer churn in the telecom sector and build a predictive model to help identify customers at risk of leaving. By leveraging data engineering and machine learning techniques, this project provides insights that enable proactive measures to reduce churn rates.
