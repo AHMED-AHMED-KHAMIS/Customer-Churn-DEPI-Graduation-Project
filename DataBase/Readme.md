@@ -34,4 +34,4 @@
     - DimContract.sql
     - DimChurn.sql
     - DimDate.sql
-    - Fact_Customer_churn
+    - Fact_Customer_churn.sql
