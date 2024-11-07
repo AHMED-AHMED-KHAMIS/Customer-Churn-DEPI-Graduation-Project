@@ -1,3 +1,7 @@
+# End to End Data Life Cycle 
+
+![azure-life-cycle](https://github.com/user-attachments/assets/48209db9-e23c-4a4b-9d65-4ab2d4ff2fc3)
+
 
 # Connect Microsoft SQL Database with Azure Data Studio:
 
