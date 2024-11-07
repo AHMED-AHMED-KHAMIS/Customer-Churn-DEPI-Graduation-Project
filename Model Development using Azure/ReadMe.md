@@ -1,5 +1,5 @@
 
-# Connect Microsoft SQL Database with Azure Data Stodio:
+# Connect Microsoft SQL Database with Azure Data Studio:
 
 ![azure_data_stodio_log](https://github.com/user-attachments/assets/2c18d660-b4f3-4fd1-93a5-9eaf09a2acac)
 
