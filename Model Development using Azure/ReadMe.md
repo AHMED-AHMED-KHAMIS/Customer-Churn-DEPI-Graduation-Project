@@ -1,9 +1,5 @@
 # End-to-End Data Life Cycle 
 
-![azure-life-cycle](https://github.com/user-attachments/assets/48209db9-e23c-4a4b-9d65-4ab2d4ff2fc3)
-
- # main
-
 ![azure-modle0](https://github.com/user-attachments/assets/5d951e10-6f2d-4f04-84bc-1a7641903b56)
 
 
