@@ -1,7 +1,4 @@
-main
-# End to End Data Life Cycle
-
-# End to End Data Life Cycle 
+# End-to-End Data Life Cycle 
 
 ![azure-life-cycle](https://github.com/user-attachments/assets/48209db9-e23c-4a4b-9d65-4ab2d4ff2fc3)
 
@@ -28,7 +25,7 @@ main
 
 ![image](https://github.com/user-attachments/assets/15200005-2c41-4f27-a05d-287b17f35b6f)
 
-# Customer Churn Model Acurecy
+# Customer Churn Model Accuracy
 
 ![accuracy](https://github.com/user-attachments/assets/5ee63e67-623b-473d-8efe-4e661d94f354)
 
